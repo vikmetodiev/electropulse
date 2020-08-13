@@ -1,0 +1,37 @@
+{
+    "welcome": {
+        "title": "Welcome"
+    },
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "settings": "Settings",
+        "projects": "Projects",
+        "contacts": "Contacts",
+        "light": "Light",
+        "dark": "Dark",
+        "language": "Language"
+    },
+    "mainPage": {
+        "firstText": "Our Company is higly efficient and completely profesional whithing the electricity installation branch.",
+        "secondText": "All our customers have been more than satisfied and have all their needs completed.",
+        "thirdText": "We do believe that team work brings the best quality that's why we have one of the highest team spirits!",
+        "fourthText": "And this is one of the main reasons we are always looking to expand our team"
+    },
+    "general":{
+        "mainText": "Методиев и Синове – Електропулс ЕООД е основано през 2017 г. в гр. Пловдив. Основният предмет на дейност на фирмата е проектиране, изграждане и поддръжка на електроинсталации, ел. прибори, уреди и съоръжения. По-конкретно дружеството изпълнява следните дейности: ел. оборудване на промишлени и жилищни сгради, монтаж на БКТП, МКТП, преустройство на съществуващи трафопостове, структурно окабеляване на ниско напрежение, информационни и оптични кабели, КИП и автоматизация, пожароизвестяване, изграждане на фотоволтаични централи, работа на екстремни височини.",
+        "submainText": "Методиев и Синове – Електропулс ЕООД залага на първо място на качеството на изпълнение на своите дейности, на разумните срокове и на конкурентните цени! ",
+        "address": "Bul. Svoboda 3, Plovdiv"
+    },
+    "titles":{
+        "about": "About us",
+        "contacts": "Contacts",
+        "projects": "Our Projects"
+    },
+    "labels":{
+        "facebook": "Facebook",
+        "phone": "Phone",
+        "email": "E-mail",
+        "address": "Address"
+    }
+}

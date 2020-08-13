@@ -1,5 +1,25 @@
 .App {
   text-align: center;
+  color:#282c34 !important;
+  /* background-image: linear-gradient(45deg, #91C8F6, #29313A);
+  height: 100%; */
+}
+
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, #91C8F6, #29313A);
+}
+
+.header{
+  position: sticky;
+  background-image: linear-gradient(45deg,rgba(145,200,246,0.8), rgba(41,49,58,0.8));
+  top:0;
+  margin-top: -15px;
+  z-index:5 ;
+}
+
+.not-scrolled-header{
+  margin-top: -5px;
 }
 
 .App-logo {
@@ -35,4 +55,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigation-button-text {
+  margin-right: 15px;
+  margin-top: 0px;
+  font-size:25px !important;
+  color:black;
+  text-decoration: underline;
+}
+
+.nav-positioning {
+  margin: auto;
+  width: 52%;
+}
+
+.navigation-button{
+  background: none !important;    
+  display: inline-flex !important;
+  border: none !important;
+  color: black !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+  transition: transform .2s !important; 
+}
+
+.navigation-button:hover, .navigation-button:hover .nav-icons{
+  cursor: pointer;
+  transform: scale(1.5);
+  color:white !important;
+  fill:white;
+}
+
+.btn-secondary:focus{
+  box-shadow: none !important;
+}
+
+.dropdown-toggle::after{
+  display: none !important;
+}
+
+.dropdown-button{
+  background: none !important;
+  margin-top:-5px !important;
+  border:none !important;
+}
+
+
+.nav-icons {
+  width: 21px;
+  height: auto;
+  margin-right: 5px;
+  color: black;
+}
+
+.project-buttons{
+  color:#282c34 !important;
+  background-color: azure !important;
+  border:none !important;
+}
+
+.project-buttons:hover{
+  color:azure !important;
+  background: #282c34 !important;
+}
+
+.card-body-projects{
+  background-image: linear-gradient(45deg, #29313A, #FFF);
+}
+
+.card-projects{
+  border: none !important;
+  box-shadow: rgb(0, 0, 0) 6px 6px 20px;
 }

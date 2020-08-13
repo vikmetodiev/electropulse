@@ -1,0 +1,403 @@
+.App {
+    text-align: center;
+    color:#FFF8DC !important;
+    /* background-image: linear-gradient(45deg, #91C8F6, #29313A);
+    height: 100%; */
+
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(102,3,3,0.9419117988992471); 
+    background:azure;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(1deg, rgba(11,1,4,1) 0%, rgba(102,3,3,0.9419117988992471) 100%);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  body{
+    min-height: 100vh;
+    background-image: linear-gradient(0deg, rgba(11,1,4,1) 0%, rgba(102,3,3,0.9419117988992471) 100%);
+  }
+  
+  .header{
+    position: sticky;
+    background-image: linear-gradient(0deg, rgba(11,1,4,0.8) 0%, rgba(102,3,3,0.9419117988992471) 100%);
+    top:0;
+    z-index:5 ;
+  }
+
+  .card-header{
+    background-image: linear-gradient(0deg, rgba(128,0,0,0.8), rgba(0,0,0,0.8)) !important
+  }
+
+  .card-footer{
+    background-image: linear-gradient(0deg, rgba(128,0,0,0.8), rgba(0,0,0,0.8)) !important
+  }
+  
+  .not-scrolled-header{
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #FFF8DC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .navigation-button-text {
+    margin-right: 15px;
+    margin-top: 0px;
+    font-size:25px !important;
+    color:#D3D3D3;
+    text-decoration: underline;
+  }
+
+  .nav-positioning {
+    margin: auto;
+    width: 52%;
+  }
+  
+  .navigation-button, .navigation-button:focus{
+    background: none !important;    
+    display: inline-flex !important;
+    border: none !important;
+    color: #D3D3D3 !important;
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    transition: transform .2s !important; 
+    outline: none !important;
+  }
+  
+  .navigation-button:hover, .navigation-button:hover .nav-icons{
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+  
+  .nav-item, .nav-item:focus, .nav-link{
+    background: none !important;    
+    display: inline-flex !important;
+    border: none !important;
+    color: #D3D3D3 !important;
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    transition: transform .2s !important; 
+    outline: none !important;
+    fill:#D3D3D3 !important;
+  }
+
+  .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+  
+  .nav-item:hover, .nav-item:hover .nav-icons{
+    cursor: pointer;
+    transform: scale(1.3);
+    color:#d65656 !important;
+    fill:#d65656 !important;
+  }
+
+
+  .nav-link.active{
+    background: none !important;
+    border-top:none !important;
+    border-left: none !important;
+    border-right: none !important;
+    color: #d65656 !important;
+    border-bottom: 1px solid #d65656 !important;
+  }
+  .nav-link.active .nav-icons{
+    color:#d65656 !important;
+    fill:#d65656 !important;
+  }
+
+  .table-text{
+    color: azure !important;
+  }
+
+  .nav-link:hover{
+    border-top:none !important;
+    border-left: none !important;
+    border-right: none !important;
+    color:#d65656 !important;
+    fill:#d65656 !important;
+  }
+
+  .btn-secondary:focus{
+    box-shadow: none !important;
+  }
+  
+  .dropdown-toggle::after{
+    display: none !important;
+  }
+  
+  .dropdown-button{
+    background: none !important;
+    margin-top:-5px !important;
+    border:none !important;
+  }
+  
+  
+  .nav-icons {
+    width: 21px;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .project-buttons{
+    color:#FFF8DC !important;
+    background-color: #800000 !important;
+    border:none !important;
+  }
+  
+  .project-buttons:hover{
+    color:#800000 !important;
+    background: #FFF8DC !important;
+  }
+  
+  .card-body-projects{
+    background-image: linear-gradient(45deg, #800000, #FFF);
+  }
+
+  .card-body-projects-collapse{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(128,0,0,0.8));
+  }
+
+  
+  .card-projects{
+    border: none !important;
+    box-shadow: rgb(0, 0, 0) 6px 6px 20px;
+  }
+
+  .hr-color{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  }
+
+  .main-title{
+    font-style: oblique;
+    color: rgb(212, 237, 218);
+    border-bottom: 1px solid #c79ea6;
+  }
+
+  .second-main-title{
+    font-style: oblique;
+    color: #e0ec8c;
+    border-bottom: 1px solid #c79ea6;
+    margin-top:-5px;
+  }
+
+  .main-icon-color{
+    color: #e0ec8c;
+  }
+
+  .main-icon-color .nav-link{
+    border-top:none !important;
+    border-left: none !important;
+    border-right: none !important;
+    color:#d65656 !important;
+    fill:#d65656 !important;
+  }
+
+  .div-animation {
+    left:-100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: 3s;
+    display: inline-flex;
+    animation-iteration-count:infinite;
+  }
+
+  @keyframes example {
+    0%   {left:-100px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:0px;}
+    75%  {left:-100px; top:0px;}
+    100% {left:-100px; top:0px;}
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-image: linear-gradient(-5deg, #5d0524,#eee5e7);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .bolt {
+    position: absolute;
+    margin-left: 2px;
+  }
+
+  .main-page-border{
+    border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #DC143C, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  }
+
+
+  .neon-text{
+    padding:0 20px;
+    font-size:4em;
+    color: #fff;
+    text-shadow: 0 0 20px LightPink;
+  }
+  
+  .neon-text:after{
+    content: attr(data-text);
+    z-index:-1;
+    color:LightPink;
+  }
+
+  .neon-text:before{
+    content: attr(data-text);
+    z-index:-1;
+    color:LightPink;
+  }
+  
+
+  .shadows{
+    text-shadow: 2px 2px 50px red ;
+    font-size: 80px;
+    color:white;
+    filter: drop-shadow(0px 3px 3px rgba(255, 255, 255, 1.4));
+    margin-top: 15px;
+    /* Similar syntax to box-shadow */
+  }
+
+  .separator{
+      margin: 0 auto;
+      width: 30%;
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+      margin-bottom:15px;
+    }
+
+
+    .about{
+      width: 50%;
+      text-align: justify;
+      margin: auto;
+    }
+
+    @media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+  .nav-positioning{
+    margin-left: 15%;
+  }
+  @keyframes example {
+    0%   {left:-50px; top:0px;}
+    25%  {left:50px; top:0px;}
+    50%  {left:50px; top:0px;}
+    75%  {left:-50px; top:0px;}
+    100% {left:-50px; top:0px;}
+  }
+
+  .div-animation {
+    left:-50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: 3s;
+    display: inline-flex;
+    animation-iteration-count:infinite;
+  }
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+  
+  .table td{
+    padding:5px !important;
+    padding-left:50% !important;
+  }
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+  }
+  td:nth-of-type(1):before { content: "First Name"; }
+	td:nth-of-type(2):before { content: "Last Name"; }
+	td:nth-of-type(3):before { content: "Job Title"; }
+	td:nth-of-type(4):before { content: "Favorite Color"; }
+	td:nth-of-type(5):before { content: "Wars of Trek?"; }
+	td:nth-of-type(6):before { content: "Secret Alias"; }
+	td:nth-of-type(7):before { content: "Date of Birth"; }
+	td:nth-of-type(8):before { content: "Dream Vacation City"; }
+	td:nth-of-type(9):before { content: "GPA"; }
+	td:nth-of-type(10):before { content: "Arbitrary Data"; }
+}
