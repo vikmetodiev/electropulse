@@ -11,7 +11,7 @@ class Home extends React.Component {
         this.state = {
             pushesCount: 0,
             absCount: 0
-        }
+        } 
     }
 
     pushUps = () => {
