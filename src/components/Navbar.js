@@ -14,9 +14,7 @@ import Projects from "./Projects.js";
 import { withTranslation } from 'react-i18next';
 import { useTranslation } from "react-i18next";
 import Scrollspy from 'react-scrollspy';
-import {
-    isMobile
-  } from "react-device-detect";
+import { isMobile } from "react-device-detect";
 function HeaderComponent(props) {
     const [t, i18n] = useTranslation('common');
     if (window.localStorage.getItem('language') === "bg") {
@@ -32,7 +30,7 @@ function HeaderComponent(props) {
         return <NavItem>
             <NavLink
 
-                onClick={() => { i18n.changeLanguage('bg'); localStorage.setItem('language', 'bg'); isMobile ? props.toggle() : i18n.changeLanguage('bg')  }}
+                onClick={() => { i18n.changeLanguage('bg'); localStorage.setItem('language', 'bg'); isMobile ? props.toggle() : i18n.changeLanguage('bg') }}
             >
                 <FontAwesomeIcon icon={faGlobeEurope} className="nav-icons" style={{ fontSize: 20 }} /> Language
         </NavLink>
@@ -106,48 +104,48 @@ class Navbaru extends React.Component {
                                 <Scrollspy items={['item-1', 'item-2', 'item-3', 'item-4', 'item-5', 'item-6', 'item-7']} currentClassName="main-icon-color">
                                     <NavItem>
                                         <NavLink
-                                            onClick={() => {this.scrollIntoView(1); isMobile ? this.toggle(): this.scrollIntoView(1)}}
+                                            onClick={() => { this.scrollIntoView(1); isMobile ? this.toggle() : this.scrollIntoView(1) }}
                                         >
                                             <HomeImg className="nav-icons" />{t('navbar.home')}
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink
-                                            onClick={() => {this.scrollIntoView(2); isMobile ? this.toggle(): this.scrollIntoView(2)}}
+                                            onClick={() => { this.scrollIntoView(2); isMobile ? this.toggle() : this.scrollIntoView(2) }}
                                         >
                                             <AboutImg className="nav-icons" />{t('navbar.about')}
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink
-                                            onClick={() => {this.scrollIntoView(3); isMobile ? this.toggle(): this.scrollIntoView(3)}}
+                                            onClick={() => { this.scrollIntoView(3); isMobile ? this.toggle() : this.scrollIntoView(3) }}
                                         >
                                             <ServiceImg className="nav-icons" /> {t('navbar.projects')}
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink
-                                            onClick={() => {this.scrollIntoView(4); isMobile ? this.toggle(): this.scrollIntoView(4)}}
+                                            onClick={() => { this.scrollIntoView(4); isMobile ? this.toggle() : this.scrollIntoView(4) }}
                                         >
                                             <FontAwesomeIcon icon={faEnvelopeOpenText} className="nav-icons" style={{ fontSize: 20 }} /> {t('navbar.contacts')}
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>
                                         {this.store.theme === "dark" ? <NavLink
-                                            onClick={() => {this.store.themeSelector('light');isMobile ? this.toggle(): this.store.themeSelector('light')}}
+                                            onClick={() => { this.store.themeSelector('light'); isMobile ? this.toggle() : this.store.themeSelector('light') }}
                                         >
                                             <FontAwesomeIcon icon={faMoon} className="nav-icons mt-1" style={{ fontSize: 20 }} /> {t('navbar.light')}
 
                                         </NavLink> :
                                             <NavLink
                                                 className="navigation-button"
-                                                onClick={() => {this.store.themeSelector('dark'); isMobile ? this.toggle(): this.store.themeSelector('dark')}}>
+                                                onClick={() => { this.store.themeSelector('dark'); isMobile ? this.toggle() : this.store.themeSelector('dark') }}>
 
                                                 <FontAwesomeIcon icon={faSun} className="nav-icons mt-1" style={{ fontSize: 20 }} /> {t('navbar.dark')}
 
                                             </NavLink>}
                                     </NavItem>
-                                    <HeaderComponent toggle={this.toggle}/>
+                                    <HeaderComponent toggle={this.toggle} />
                                 </Scrollspy>
 
                             </Nav>
@@ -159,7 +157,7 @@ class Navbaru extends React.Component {
                     <div className="text-center" id="item-1">
                         <MainPage />
                     </div>
-                    <div style={{ textAlign: "center",marginTop:50,marginBottom:90}} ref={ref => this["$ref2"] = ref}>
+                    <div style={{ textAlign: "center", marginTop: 50, marginBottom: 90 }} ref={ref => this["$ref2"] = ref}>
                         <span role="img" aria-label="electricity" className="bolt">⚡</span>
                         <span className="dot"></span>
                         <span role="img" aria-label="electricity" className="bolt">⚡</span>
@@ -170,7 +168,7 @@ class Navbaru extends React.Component {
                     <div className="text-center" id="item-2">
                         <About />
                     </div>
-                    <div style={{ textAlign: "center",marginTop:50,marginBottom:90}} ref={ref => this["$ref3"] = ref}>
+                    <div style={{ textAlign: "center", marginTop: 50, marginBottom: 90 }} ref={ref => this["$ref3"] = ref}>
                         <span role="img" aria-label="electricity" className="bolt">⚡</span>
                         <span className="dot"></span>
                         <span role="img" aria-label="electricity" className="bolt">⚡</span>
@@ -181,7 +179,7 @@ class Navbaru extends React.Component {
                     <div className="text-center" id="item-3">
                         <Projects />
                     </div>
-                    <div style={{ textAlign: "center",marginTop:50,marginBottom:90}} ref={ref => this["$ref4"] = ref}>
+                    <div style={{ textAlign: "center", marginTop: 50, marginBottom: 90 }} ref={ref => this["$ref4"] = ref}>
                         <span role="img" aria-label="electricity" className="bolt">⚡</span>
                         <span className="dot"></span>
                         <span role="img" aria-label="electricity" className="bolt">⚡</span>
