@@ -16,22 +16,45 @@
         "firstText": "Our Company is higly efficient and completely profesional whithing the electricity installation branch.",
         "secondText": "All our customers have been more than satisfied and have all their needs completed.",
         "thirdText": "We do believe that team work brings the best quality that's why we have one of the highest team spirits!",
-        "fourthText": "And this is one of the main reasons we are always looking to expand our team"
+        "fourthText": "And this is one of the main reasons we are always looking to expand our team",
+        "fifthText": "The nature of work in the field of electrical installations hides its risks, so we strive to have a high degree of security in the workplace!"
     },
     "general":{
-        "mainText": "Методиев и Синове – Електропулс ЕООД е основано през 2017 г. в гр. Пловдив. Основният предмет на дейност на фирмата е проектиране, изграждане и поддръжка на електроинсталации, ел. прибори, уреди и съоръжения. По-конкретно дружеството изпълнява следните дейности: ел. оборудване на промишлени и жилищни сгради, монтаж на БКТП, МКТП, преустройство на съществуващи трафопостове, структурно окабеляване на ниско напрежение, информационни и оптични кабели, КИП и автоматизация, пожароизвестяване, изграждане на фотоволтаични централи, работа на екстремни височини.",
-        "submainText": "Методиев и Синове – Електропулс ЕООД залага на първо място на качеството на изпълнение на своите дейности, на разумните срокове и на конкурентните цени! ",
+        "mainText": "„Metodiev & Sons – Electropulse“ EOOD is established in 2017 in Plovdiv. The main activity of the company is design, construction and maintenance of electrical installations, electrical appliances, appliances and equipment.In particular, the company performs the following activities: electrical equipment of industrial and residential buildings, installation of BCTP, MCTP, reconstruction of existing substations, low voltage structural cabling, information and optical cables, instrumentation and automation, fire alarm, construction of photovoltaic plants, work at extreme heights and others.",
+        "submainText": "„Metodiev & Sons – Electropulse“ EOOD relies first on the quality of its activities, reasonable deadlines and competitive prices!",
         "address": "Bul. Svoboda 3, Plovdiv"
     },
     "titles":{
         "about": "About us",
         "contacts": "Contacts",
-        "projects": "Our Projects"
+        "projects": "All Projects"
+    },
+    "project":{
+        "firstProjectName": "„KCM“ AD, Plovdiv",
+        "secondProjectName": "Tunnel „Echemishka“",
+        "thirdProjectName": "„Electrostomana 2004“ AD, Karlovo",
+        "fourthProjectName": "„Biovet“ AD, Peshtera",
+        "firstProjectDesc": "Automation of production in an Industrial Unit „Wet extraction of zinc and cadmium“",
+        "secondProjectDesc": "Processing of substations",
+        "thirdProjectDesc": "Construction of a production line",
+        "fourthProjectDesc": "Extending „Biovet“ – Fermentation Industrial Unit",
+        "firstProjectTime": "5 Months",
+        "secondProjectTime": "8 Months",
+        "thirdProjectTime": "1 Yaear",
+        "fourthProjectTime": "1 Year and 3 Months",
+        "projectTitleName": "Project Name",
+        "projectTitleDesc": "Discription",
+        "projectTitleTime": "Project time estimation",
+        "projectTitlePeople": "People worked in the project"
+
     },
     "labels":{
         "facebook": "Facebook",
         "phone": "Phone",
         "email": "E-mail",
         "address": "Address"
+    },
+    "buttons":{
+        "information": "Information"
     }
 }

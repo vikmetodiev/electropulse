@@ -16,35 +16,35 @@ class About extends React.Component {
             <Container>
                 <h1 className="neon-text">{t('titles.about')}</h1>
                 <hr className="separator" />
-                <h5 className="about">{t('general.mainText')} </h5>
+                <h3 className="about">{t('general.mainText')} </h3>
                 <BrowserView>
                     <Table className="mt-5 table-text">
                         <thead>
                             <tr>
-                                <th className="border-top-0">Project Name</th>
-                                <th className="border-top-0">First Project</th>
-                                <th className="border-top-0">Second Project</th>
-                                <th className="border-top-0">Third Project</th>
-                                <th className="border-top-0">Fourth Project</th>
+                                <th className="border-top-0">{t("project.projectTitleName")}</th>
+                                <th className="border-top-0">{t("project.firstProjectName")}</th>
+                                <th className="border-top-0">{t("project.secondProjectName")}</th>
+                                <th className="border-top-0">{t("project.thirdProjectName")}</th>
+                                <th className="border-top-0">{t("project.fourthProjectName")}</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td >Description</td>
-                                <td>First descritption</td>
-                                <td>Second descritption</td>
-                                <td>Third descritption</td>
-                                <td>Fourth descritption</td>
+                                <td >{t("project.projectTitleDesc")}</td>
+                                <td>{t("project.firstProjectDesc")}</td>
+                                <td>{t("project.secondProjectDesc")}</td>
+                                <td>{t("project.thirdProjectDesc")}</td>
+                                <td>{t("project.fourthProjectDesc")}</td>
                             </tr>
                             <tr>
-                                <td>Estimated job amount time</td>
-                                <td>Approximately 1 year</td>
-                                <td>Approximately 5 months</td>
-                                <td>Approximately 10 months</td>
-                                <td>Approximately 1 year and a half</td>
+                                <td>{t("project.projectTitleTime")}</td>
+                                <td>{t("project.firstProjectTime")}</td>
+                                <td>{t("project.secondProjectTime")}</td>
+                                <td>{t("project.thirdProjectTime")}</td>
+                                <td>{t("project.fourthProjectTime")}</td>
                             </tr>
                             <tr>
-                                <td>People Worked on the project</td>
+                                <td>{t("project.projectTitlePeople")}</td>
                                 <td>6-8</td>
                                 <td>3-6</td>
                                 <td>6-10</td>
@@ -57,33 +57,30 @@ class About extends React.Component {
                     <Table className="mt-5 table-text">
                         <thead>
                             <tr>
-                                <th className="border-top-0">Project Name</th>
-                                <th className="border-top-0">Description</th>
-                                <th className="border-top-0">Estimated job amount time</th>
-                                <th className="border-top-0">People Worked on the project</th>
+                                <th className="border-top-0">{t("project.projectTitleName")}</th>
+                                <th className="border-top-0">{t("project.projectTitleDesc")}</th>
+                                <th className="border-top-0">{t("project.projectTitleTime")}</th>
+                                <th className="border-top-0">{t("project.projectTitlePeople")}</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td >FirstProject</td>
-                                <td>First descritption</td>
-                                <td>Approximately 1 year</td>
+                                <td >{t("project.firstProjectName")}</td>
+                                <td>{t("project.firstProjectDesc")}</td>
+                                <td>{t("project.firstProjectTime")}</td>
                                 <td>6-8</td>
-                                <td>Fourth descritption</td>
                             </tr>
                             <tr>
-                                <td>second</td>
-                                <td>Approximately 1 year</td>
-                                <td>Approximately 5 months</td>
-                                <td>Approximately 10 months</td>
-                                <td>Approximately 1 year and a half</td>
-                            </tr>
-                            <tr>
-                                <td>Third</td>
-                                <td>6-8</td>
+                                <td>{t("project.secondProjectName")}</td>
+                                <td>{t("project.secondProjectDesc")}</td>
+                                <td>{t("project.secondProjectTime")}</td>
                                 <td>3-6</td>
+                            </tr>
+                            <tr>
+                                <td>{t("project.thirdProjectName")}</td>
+                                <td>{t("project.thirdProjectDesc")}</td>
+                                <td>{t("project.thirdProjectTime")}</td>
                                 <td>6-10</td>
-                                <td>2-5</td>
                             </tr>
                         </tbody>
                     </Table>

@@ -69,18 +69,7 @@ body{
   margin: auto;
   width: 52%;
 }
-
-.navigation-button{
-  background: none !important;    
-  display: inline-flex !important;
-  border: none !important;
-  color: black !important;
-  font-size: 25px !important;
-  font-weight: 500 !important;
-  transition: transform .2s !important; 
-}
-
-.navigation-button:hover, .navigation-button:hover .nav-icons{
+ .nav-icons{
   cursor: pointer;
   transform: scale(1.5);
   color:white !important;
